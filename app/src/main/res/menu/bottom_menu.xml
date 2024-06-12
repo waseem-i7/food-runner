@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/recipe"
+            android:icon="@drawable/ic_recipes"
+            android:title="@string/recipe" />
+
+        <item
+            android:id="@+id/timer"
+            android:icon="@drawable/ic_timer"
+            android:title="@string/Timer" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/Feedback" />
+
+    </group>
+
+</menu>
